@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/DEIN-REPO-NAME/',
+  base: '/publictest2/',
+  define: {
+    'process.env': {},
+  },
 })
